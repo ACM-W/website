@@ -126,7 +126,7 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.8);
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -300,12 +300,11 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    background-color: $theme-primary;
 }
 
 .btn {
     @include sans-serif-font;
-    border: none;
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
@@ -348,4 +347,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
