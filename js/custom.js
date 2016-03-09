@@ -16,6 +16,7 @@ $(document).ready(function() {
         if(target.events.length) {
           var daysContainer = $('#calendar').find('.days-container');
           daysContainer.toggleClass('show-events', true);
+          console.log("HEREEEEE!!!");
           $('#calendar').find('.x-button').click( function() {
             daysContainer.toggleClass('show-events', false);
           });
