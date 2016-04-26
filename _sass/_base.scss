@@ -303,8 +303,12 @@ header {
 }
 
 .projectsDesc{
-  padding: 0 2em;
-  text-align: center;
+  padding: 0.5em;
+  border: 1px solid orange;
+  width: 95%;
+  margin: 0 auto;
+  height: 17em;
+  text-align: left;
 }
 
 .call-to-action {
