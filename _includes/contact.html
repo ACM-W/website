@@ -1,0 +1,48 @@
+<section id="contact">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <hr class="primary">
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+          <p>Connect with us, or send us an e-mail! =)</p>
+          <div class="col-lg-2 col-lg-offset-2 text-center">
+              <a href="https://www.facebook.com/groups/acmwcsuf/">
+                  <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                  <p>{{ site.twitter_username }}</p>
+              </a>
+          </div>
+          <div class="col-lg-2 col-lg-offset-1 text-center">
+              <a href="mailto:{{ site.email }}">
+              <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                  <p>{{ site.email }}</p>
+              </a>
+          </div>
+          <div class="col-lg-2 col-lg-offset-1 text-center">
+              <a href="https://github.com/ACM-W">
+              <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                  <p>{{ site.github_username }}</p>
+              </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 text-center">
+          <div class="contact-form">
+            <form method="POST" action="../subscribe/acm-w">
+              <div class="input-group" style="width: 50%; margin: 0 auto;">
+                <span class="input-group-addon" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Your Email Address" aria-describedby="basic-addon1">
+              </div>
+              <br/>
+              <textarea class="form-control" rows="10" style="width: 50%; margin: 0 auto;"></textarea>
+              <br/>
+              <div class="row">
+        	      <a href="#about" class="btn btn-primary">Send</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
