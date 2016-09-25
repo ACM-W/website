@@ -1,3 +1,11 @@
+:root
+{
+  --main-color: #0b4075;
+  --secondary-color:;
+  --main-color-hover: #072646;
+
+}
+
 html,
 body {
   height: 100%;
@@ -7,7 +15,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  border-color: #075FAA;
+  border-color: var(--main-color);
   border-width: 3px;
   max-width: 50px; }
 
@@ -18,9 +26,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #075FAA; }
+  color: var(--main-color); }
   a:hover, a:focus {
-    color: #054479; }
+    color: var(--main-color-hover); }
 
 h1,
 h2,
@@ -36,7 +44,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #075FAA; }
+  background-color: var(--main-color); }
 
 .bg-dark {
   background-color: #222;
@@ -62,12 +70,12 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    color: #075FAA;
+    color: var(--main-color);
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-      color: #054479; }
+      color: var(--main-color-hover); }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -76,10 +84,10 @@ aside {
     color: #222; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color: #075FAA; }
+      color: var(--main-color); }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #075FAA !important;
+    color: var(--main-color) !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
@@ -102,16 +110,16 @@ aside {
         background-color: rgba(255, 255, 255, 0.8);
         border-color: rgba(34, 34, 34, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
-          color: #075FAA;
+          color: var(--main-color);
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-            color: #054479; }
+            color: var(--main-color-hover); }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
           color: #222; }
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
-            color: #075FAA; } }
+            color: var(--main-color); } }
 
 header {
   position: relative;
@@ -248,7 +256,7 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #075FAA; }
+  color: var(--main-color); }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -275,7 +283,10 @@ header {
     background-color: #222; }
 
 .btn-primary {
-  background-color: #075FAA; }
+  background-color: var(--main-color); }
+
+.btn-primary:hover{
+  background-color: var(--main-color-hover); }
 
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
