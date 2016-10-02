@@ -1,7 +1,7 @@
 :root
 {
   --main-color: #0b4075;
-  --secondary-color:;
+  --secondary-color:#FF7D2D;
   --main-color-hover: #072646;
 
 }
@@ -146,7 +146,7 @@ header {
     header .header-content .header-content-inner .aboutACM {
       padding: 1em;
       background-color: rgba(0, 0, 0, 0.8);
-      border: 5px solid orange;
+      border: 5px solid var(--secondary-color);
       border-radius: 5px;
       color: white;
       text-align: left;
@@ -246,7 +246,7 @@ header {
 
 .projectsDesc {
   padding: 0.5em;
-  border: 1px solid orange;
+  border: 1px solid var(--secondary-color);
   width: 95%;
   margin: 0 auto;
   height: 17em;
@@ -325,4 +325,18 @@ body {
  .embed-responsive-item
  {
      margin-left: 3%;
+ }
+ .container .row .service-box .board-Position
+ {
+      color: var(--main-color);
+     font-weight: bold;
+ }
+  .container .row .service-box .text-muted
+  {
+      text-align: center;
+  }
+
+  .container  hr.hr-Board
+ {
+     border-color: var(--secondary-color);
  }
