@@ -58,6 +58,7 @@
             <a class="navbar-brand page-scroll" href="#page-top">ACM-W</a>
         </div>
 
+        <!-- Menu-->
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -67,26 +68,35 @@
                 <li>
                     <a class="page-scroll" href="#about">About</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#services">Who are we?</a>
+                <li role="presentation" class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Who are we? <span class="caret"></span>
+                  </a>
+                     <ul class="dropdown-menu">
+                         <li> <a class="board-menu" href="#services"> Current Board</a> </li>
+                         <li> <a class="board-menu" href="board.html"> Spring 2016 </a></li>
+                    </ul>
                 </li>
+
                 <li>
                     <a class="page-scroll" href="#portfolio">Projects</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#events">Events</a>
-                </li>    
+                </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact Us</a>
                 </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
+        <!-- end of Menu -->
     </div>
     <!-- /.container-fluid -->
 </nav>
 
   <header>
+    <!-- Main section -->
     <div class="header-content">
         <div class="header-content-inner">
             <h1>ACM-W</h1>
@@ -95,8 +105,10 @@
             <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
     </div>
+    <!-- end of Main section -->
 </header>
 
+  <!-- about us section -->
   <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
@@ -111,54 +123,71 @@
         </div>
     </div>
 </section>
+  <!-- end of about us-->
 
+  <!-- board section -->
   <section id="services">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
+              <!-- section title -->
                 <h2 class="section-heading">Meet the board</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
+      <!-- Member -->
     <div class="container">
         <div class="row">
+            <!-- president -->
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <img src="../img/faces/1.jpg" class="img-circle wow bounceIn" />
-                    <hr/>
-                    <h3><span><small>President:</small></span>&nbsp;Natalie Ang</h3>
-                    <p class="text-muted">Natalie is a kind and patient person but will be honest with you even if the truth hurts. The only thing she loves more than video games is food. She is methodical and she does her best in accomplishing her goals.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <img src="../img/faces/2.jpg" class="img-circle wow bounceIn" />
-                    <hr/>
-                    <h3><span><small>Vice President:</small></span>&nbsp;Sara Lipowsky</h3>
+                    <img src="../img/boardMembers/Fall2016/President.jpg" class="img-circle wow bounceIn" />
+                    <hr class="hr-Board">
+                    <p class= "board-Position">President</p>
+                    <h3> Sara Lipowsky</h3>
                     <p class="text-muted">Sara’s enthusiastic demeanor radiates wherever she goes and with whatever she does. She enjoys sharing her creative passions of programming and song writing with others. Learning from others and combining perspectives brings her great joy.</p>
                 </div>
             </div>
+              <!-- Vice president -->
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <img src="../img/faces/3.jpg" class="img-circle wow bounceIn" />
-                    <hr/>
-                    <h3><span><small>Treasurer:</small></span>&nbsp;Diana Galvan</h3>
+                    <img src="../img/boardMembers/Fall2016/Vicepresident.jpg" class="img-circle wow bounceIn" />
+                    <hr class="hr-Board">
+                    <p class= "board-Position">Vice President</p>
+                    <h3> Leigh Salvador</h3>
+                    <p class="text-muted">Leigh loves reading books, watching horror movies, and listening to pop&amp;rock music. Like many children destined to become computer scientists, when she found something she liked she went full throttle ahead: she once watched the movie "School of Rock” more than 5 times in the same day.</p>
+                </div>
+            </div>
+              <!-- Treasurer -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <img src="../img/boardMembers/Fall2016/Treasurer.jpg" class="img-circle wow bounceIn" />
+                    <hr class="hr-Board">
+                    <p class= "board-Position">Treasurer</p>
+                    <h3> Diana Galvan</h3>
                     <p class="text-muted">Diana is such a caring and friendly person that it is no surprise that she would like to make software for hospitals. Those who meet Diana are immediately taken by her friendly demeanor. In her free time, she likes to express herself through art by painting beautiful pictures of her favorite Disney characters.</p>
                 </div>
             </div>
+            <!-- Secretary -->
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <img src="../img/faces/pic.jpg" class="img-circle wow bounceIn" />
-                    <hr/>
-                    <h3><span class="title"><small>Secretary:</small></span>&nbsp;Leigh Salvador</h3>
-                    <p class="text-muted">Leigh loves reading books, watching horror movies, and listening to pop&amp;rock music. Like many children destined to become computer scientists, when she found something she liked she went full throttle ahead: she once watched the movie "School of Rock” more than 5 times in the same day.</p>
+                    <img src="../img/boardMembers/Fall2016/Secretary.jpg" class="img-circle wow bounceIn" />
+                    <hr class="hr-Board">
+                    <p class= "board-Position">Secretary</p>
+                    <h3> Justine Tran</h3>
+                    <p class="text-muted">Justine is dependable, friendly, and hardworking.
+                        She is passionate about creatively solving problems with computer science and hopes to someday incorporate her passion into solving environmental issues.
+                        A fun fact about her is she's ambidextrous, she colors with her left hand and writes with her right.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- end of board section -->
 
+  <!-- Projects section -->
   <section class="no-padding" id="portfolio">
   <div class="container-fluid">
     <div class="row text-center">
@@ -166,33 +195,24 @@
       <hr class="primary">
     </div>
     <br/>
+
     <div class="row no-gutter">
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                  Something
-              </div>
-              <div class="project-name">
-                  ACM-W Teaching
-              </div>
+        <!-- description -->
+      <div class="col-lg-12 col-sm-7">
+          <!-- video -->
+          <div class="col-lg-5 col-sm-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iibnH7ueBMg"></iframe>
             </div>
           </div>
-        </a>
-      </div>
-      <div class="col-lg-8 col-sm-6">
-        <p class="projectsDesc">The purpose of ACM-W in this event is to work with the Girl Scouts of Orange County and teach girls about the world of engineering. The goal of ACM-W is to get more girls interested in computer science by exposing them to programming at a young age.
-            <br>
-            <br>
-          During the Spring 2016 semester, the ACM-W Chapter at CSUF and the Girl Scouts of Orange County participated in a mentorship program called Creative Coding. With sponsorship from IgniteCS at Google, they explored Turtle Graphics and Ozobots.
-              <a href="https://www.youtube.com/watch?v=iibnH7ueBMg"> Watch us on YouTube </a>
+        <p >The purpose of ACM-W in this event is to work with the Girl Scouts of Orange County and teach girls about the world of engineering. The goal of ACM-W is to get more girls interested in computer science by exposing them to programming at a young age.</p>
+         <p> During the Spring 2016 semester, the ACM-W Chapter at CSUF and the Girl Scouts of Orange County participated in a mentorship program called Creative Coding. With sponsorship from IgniteCS at Google, they explored Turtle Graphics and Ozobots.</p>
       </div>
     </div>
   </div>
 </section>
 
+  <!--  calendar section -->
   <section id="events">
   <div class="container">
     <div class="row text-center">
@@ -362,6 +382,7 @@
       </div>
   </aside>
  -->
+   <!-- Contact section -->
   <section id="contact">
     <div class="container">
       <div class="row text-center">
